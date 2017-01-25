@@ -42,7 +42,7 @@ function displayWeather(info) {
         break;
       default:
         $('.weather-icon').addClass('fa-thermometer-three-quarters');
-     	}
+     }
 	}
 
 function weather() {
@@ -64,10 +64,10 @@ function weather() {
           cache: false,
 					contentType: 'application/x-www-form-urlencoded',
 					success: displayWeather
-		});
-      };
-	});
-  };
+			 })
+      }
+		})
+  }
 
 $(document).ready(function() {
 	
