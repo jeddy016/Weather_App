@@ -63,6 +63,7 @@ function weather() {
 					dataType: 'JSON',
           cache: false,
 					contentType: 'application/x-www-form-urlencoded',
+					timeout: 4000,
 					success: displayWeather
 			 })
       }
