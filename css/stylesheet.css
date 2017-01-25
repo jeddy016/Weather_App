@@ -1,48 +1,74 @@
 body {
+  position: fixed;
   height: 100%;
   width: 100%;
+  background-color: #4396CC;
+  color: #4396CC;
 }
 
 #wrapper {
   position: fixed;
+  background-color: black;
+  border-radius: 25%;
+  padding: 4vh 5vw;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.header h1 {
-	font-size: 60px;
+.heading {
+  margin-top: 3vh;
+	font-size: 8vh;
+}
+
+.city {
+  font-size: 8vh;
+  margin-top: 0;
+}
+
+.header p {
+  font-size: 6vh;
 }
 
 .weather-icon {
-	font-size: 90px;
+	font-size: 15vh;
+  margin: 2vh 0;
 }
+
 
 .temp {
-	font-size: 80px;
+	font-size: 6vh;
+  margin-top: 0;
 }
 
-#temp-unit {
-	text-decoration: none;
-	font-size: 70px;
+.units {
+  font-size: 2vh;
 }
 
-.day {
-	font-size: 50px;
+.condition {
+  margin-bottom: 0;
+	font-size: 7vh;
+  text-transform: capitalize;
 }
 
-.weather-info {
-	list-style: none;
-	padding-left: 0;
+.btn,
+.btn:visited,
+.btn:focus,
+.btn:hover {
+  margin-top: 2vh;
+  outline: none;
+  background-color: #4396CC;
+  color: black;
 }
 
-.weather-info li {
-	display: inline-block;
-	font-size: 40px;
+.footer a {
+  color: black;
+  font-weight: bold;
 }
 
 .footer {
 	position: fixed;
 	bottom: 0;
 	left: 2vw;
+  color: black;
 }
