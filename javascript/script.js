@@ -59,7 +59,7 @@ function weather() {
       	//Get Weather Info
         $.ajax({
 					type: 'GET',
-					url: 'https://api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+lng+'&units=imperial&APPID=7c1cc301e8f332de9eb04c2e68e109d6',
+					url: 'http://api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+lng+'&units=imperial&APPID=7c1cc301e8f332de9eb04c2e68e109d6',
 					dataType: 'JSON',
           cache: false,
 					contentType: 'application/x-www-form-urlencoded',
